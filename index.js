@@ -8,7 +8,7 @@ const filePath = path.resolve(__dirname,'public')
 app.use(express.static((filePath)))
 
 app.get("/",function(req,res) {
-    res.send('HOLA MUNDO, MI NOMBRE ES LUIS SOLANO')
+    res.send('HOLA MUNDO, MI NOMBRE ES paco stanley')
 })
 
 app.listen(8000,()=>{
